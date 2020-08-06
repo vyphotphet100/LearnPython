@@ -1,0 +1,31 @@
+LIST
+------------------------------------
+.append(a)
+
+.insert(1, "banana")
+
+.remove("banana")
+
+.pop() -> remove the last element
+.pop(1) -> remove the second element
+
+del myList[3] -> remove the element at index 3
+
+del myList -> delete list
+
+.clear() -> delete all the element
+
+myList2 = myList.copy() -> copy myList to myList2
+myList2 = list(myList)
+
+- Add two list:
+myList + myList2 
+myList.extend(myList2)
+
+.sort()
+
+.reverse()
+
+.count("abc") -> return times that "abc" appears
+
+.index("...") -> return the index of "..."

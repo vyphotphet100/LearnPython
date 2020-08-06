@@ -1,0 +1,38 @@
+IF STATEMENT
+
+if <condition>:
+	statement
+	statement
+elif <condition>:
+	statement
+	statement
+else:
+	statement
+	..
+	
+
+- "is" operator:
+	+ point to the same object or value (constant) -> True
+	+ else -> False
+
+a = 20
+b = 20
+a is b -> True
+
+a = "Linh"
+b = "Linh"
+a is b -> True
+
+a = [2,3]
+b = [2,3]
+a is b -> False
+
+a = [2,3]
+b = a
+a is b -> True
+
+- "not" operator: like '!' in C++ and C#
+
+- condition: like C++: 
+	+ 0 -> False
+	+ not 0 -> True

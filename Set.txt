@@ -1,0 +1,17 @@
+SET
+mySet = {1,5,3,7}
+
+.add(3) -> add value to the end
+.update([3,6,8]) or 
+.update(set2)
+.remove(6) -> if 6 is not in the set, it will raise an error
+.discard(6) -> if 6 is not in the set, it will NOT raise an error
+.clear()
+
+
+.union ----------
+mySet1 = {3,6,2,6,10,11}
+mySet2 = {"a", "b"}
+mySet3 = mySet1.union(mySet2)
+-> mySet3 = {3,6,2,6,10,11,"a", "b"}
+-----------------

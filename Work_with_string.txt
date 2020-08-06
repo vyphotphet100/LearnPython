@@ -1,0 +1,43 @@
+WORK WITH STRING
+myStr = "Hello" 
+
+- len(myStr) -> 5
+- myStr.index("e") -> 1
+	+ myStr.index("el") -> 1
+- myStr.count("l") -> 2
+- myStr[0:1] -> H
+- myStr[0:0] -> nothing
+- myStr[0:] -> Hello
+- myStr[:1] -> H
+- myStr[0:5:2] -> Hlo [start:stop:step]
+- myStr.upper()
+- myStr.lower()
+- myStr.startswith("He") -> True
+- myStr.startswith("ell") -> False
+- myStr.split(" ")
+- myStr.strip() -> remove space at the begin and the end of the string
+- myStr.replace("H", "h") -> hello
+- Check string: 
+	+ "ell" in myStr -> True 
+	+ "ell" not in myStr -> False
+- ord('a') -> 97 : convert char to ascii
+	
+- Format:
+a = "Hello everyone!! {} {}"
+a = a.format(2,3)
+print(a) -> Hello everyone!! 2 3
+
+a = "Hello everyone!! {1} {0}"
+a = a.format(2, 3)
+print(a) -> Hello everyone!! 3 2
+
+- Slash:
+\'		Single Quote	
+\\		Backslash	
+\n		New Line	
+\r		Carriage Return	
+\t		Tab	
+\b		Backspace	
+\f		Form Feed	
+\ooo	Octal value	
+\xhh	Hex value

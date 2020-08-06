@@ -1,0 +1,35 @@
+FUNCTION
+----------------------------
+def sum_two_numbers(a, b):
+    return a + b
+	
+print(sum_two_num(3,4))
+-> 7
+
+----------------------------
+def func(name):
+	print("Your name is: %s" % name)
+
+func("Sy Vy")
+-> Your name is: Sy Vy
+
+----------------------------
+def func(*kids):
+	print("They are: {} {} {} {}".format(kids[0], kids[1], kids[2], kids[3]))
+
+func("Vy", "Linh", "Nhan", "Thuan")
+
+-----------------------------
+def func(child3, child2, child1):
+    print("Child 1: %s" %child1)
+    print("Child 2: %s" %child2)
+    print("Child 3: %s" %child3)
+
+func(child2 = "Vy", child1 = "Linh", child3 = "Nhan")
+
+------------------------------
+def func(**kids):
+    print(kids["child1"])
+
+func(child2 = "Vy", child1 = "Linh")
+-> Linh

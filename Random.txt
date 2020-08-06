@@ -1,0 +1,6 @@
+RANDOM
+import random
+
+- random.seed(3)
+- random.randint(1, 10)
+- random.random()

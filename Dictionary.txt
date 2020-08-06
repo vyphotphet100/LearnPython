@@ -1,0 +1,13 @@
+DICTIONARY
+
+myDic = {
+    "brand": "Ford", 
+    "model": "Mustang",
+    "year": 1964
+}
+
+.get("brand") -> "Ford"
+myDic["color"] = "red" -> Add item
+.pop("model") -> remove item
+= del myDic["model"]
+.popitem() -> remove the latest item
