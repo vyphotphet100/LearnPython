@@ -8,17 +8,24 @@ a = myClass()
 print(a.x) -> 5
 
 --------------------------
-class myClass():
+class Person():
 	def __init__(self, name, age):
 		self.name = name
 		self.age = age
+	
+	def sayHello(self):
+		print("Hello everyone, my name is " + self.name)
+		
+	def sayHello2(abc):
+		print("Hello everyone, my name is " + abc.name)
 
-a = myClass("Vy", 19)
-print(a.name)
-print(a.age)
-
-=>>
-Vy
-19
+a = Person("Vy", 19)
+print(a.name) -> Vy
+print(a.age) -> 19
+a.sayHello() -> Hello everyone, my name is Vy
+a.sayHello2() -> Hello everyone, my name is Vy
 
 ---------------------------
+
+- del a.x -> delete object properties
+- del a  -> delete object
