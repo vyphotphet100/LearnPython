@@ -1,0 +1,15 @@
+t = int(input())
+name_phone = [input().split() for _ in range(t)]
+phoneB = {k:v for k, v in name_phone}
+
+while (True):
+    try:
+        name = input()
+        if (name in phoneB.keys()):
+            print(name + "=" + phoneB[name])
+        else:
+            print("Not found")
+    except:
+        break
+
+

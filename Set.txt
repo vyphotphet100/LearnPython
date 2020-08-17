@@ -15,3 +15,11 @@ mySet2 = {"a", "b"}
 mySet3 = mySet1.union(mySet2)
 -> mySet3 = {3,6,2,6,10,11,"a", "b"}
 -----------------
+
+.difference--------
+set1 = {"White", "Black", "Red"}
+set2 = {"Red", "Green"}
+
+print(set1.difference(set2))
+-> {"White", "Black"}
+

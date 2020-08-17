@@ -31,6 +31,11 @@ a = "Hello everyone!! {1} {0}"
 a = a.format(2, 3)
 print(a) -> Hello everyone!! 3 2
 
+s = """This "word" is wonderful
+Halo""" 
+-> This "word" is wonderful
+Halo
+
 - Slash:
 \'		Single Quote	
 \\		Backslash	
