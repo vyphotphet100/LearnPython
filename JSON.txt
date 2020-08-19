@@ -1,0 +1,5 @@
+import json
+
+- json.loads() : JSON to dict
+- json.dumps() : object to JSON(str)
+- json.dumps(... , indent = 4) : format

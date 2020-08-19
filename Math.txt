@@ -1,0 +1,10 @@
+import math
+
+print(abs(-2.4)) 	-> 2.4
+print(min(3,5,4)) 	-> 3
+print(max(3,7,6,9)) 	-> 9
+print(pow(4,2)) 	-> 16
+print(math.ceil(1.4)) 	-> 2
+print(math.floor(1.4)) 	-> 1
+print(math.sqrt(4)) 	-> 2
+

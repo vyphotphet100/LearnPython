@@ -1,0 +1,33 @@
+class MyArr():
+    def __init__(self):
+        self.arr = [4,6,5,9,8]
+        self.idx = 0
+        self.value = self.arr[0]
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        x = self.value
+        self.idx += 1
+        if (self.idx < len(self.arr)):
+            self.value = self.arr[self.idx]
+        elif(self.idx > len(self.arr)):
+            raise StopIteration
+        
+        return x
+
+    def index(self, x):
+        return self.arr[x]
+
+arr = MyArr()
+for i in arr:
+    print(i)
+
+->
+4
+6
+5
+9
+8
+

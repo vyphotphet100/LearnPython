@@ -1,0 +1,18 @@
+MODULE
+
+mymodule.py-------------------------------
+def greeting(name):
+    print("Hello %s" %name)
+
+Vy = "Tot bung"
+
+
+ex.py--------------------------------------
+
+import mymodule as md
+- print(dir(md)) -> List all the function and variable of the module
+
+---------------------
+from mymodule import Vy
+print(Vy)
+-> Tot bung
