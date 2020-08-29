@@ -1,0 +1,66 @@
+FILE
+
+- demofile.txt
+Hello everyone!
+My name is Cao Dinh Sy Vy
+I'm from Vietnam
+Nice to meet you today.
+
+
+
+f = open("test.txt", "rt") -> Open file to read
+		     "r" -> Read 
+		     "w" -> Over write
+		     "a" -> Append
+		     "x" -> Create file, if file exists -> error
+-------------------------------------------------
+-print(f.read())
+-> 
+Hello everyone!
+My name is Cao Dinh Sy Vy
+I'm from Vietnam
+Nice to meet you today.
+
+-------------------------------------------------
+- print(f.read(5)) 
+-> Hello
+
+-------------------------------------------------
+- print(f.readline())
+-> Hello everyone!
+
+-------------------------------------------------
+for x in f:
+    print(x)
+
+-> 
+Hello everyone!
+
+My name is Cao Dinh Sy Vy
+
+I'm from Vietnam
+
+Nice to meet you today.
+
+--------------------------------------------------
+f.close() -> Close file
+
+--------------------------------------------------
+f = open("demofile.txt", "a")
+f.write("\nWhat's your name?")
+f.close()
+
+--------------------------------------------------
+import os
+
+os.remove("demo2.txt") -> Delete file
+os.path.exist("demo2.txt") -> Return True/False: Check file exists
+os.rmdir("myfolder") -> Remove folder
+
+
+
+
+
+
+
+
