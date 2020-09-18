@@ -35,4 +35,4 @@ a is b -> True
 
 - condition: like C++: 
 	+ 0 -> False
-	+ not 0 -> True
+	+ not 0 -> True   

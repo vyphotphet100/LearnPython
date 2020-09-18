@@ -32,4 +32,4 @@ def func(**kids):
     print(kids["child1"])
 
 func(child2 = "Vy", child1 = "Linh")
--> Linh
+-> Linh   
